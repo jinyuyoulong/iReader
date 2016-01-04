@@ -14,6 +14,8 @@
 		38A430171BB5632800B3A2E8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38A430161BB5632800B3A2E8 /* Images.xcassets */; };
 		38A4301A1BB5632800B3A2E8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38A430181BB5632800B3A2E8 /* LaunchScreen.xib */; };
 		38A430261BB5632800B3A2E8 /* iReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A430251BB5632800B3A2E8 /* iReaderTests.m */; };
+		38A430311BB648A000B3A2E8 /* MyCanvas.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A430301BB648A000B3A2E8 /* MyCanvas.m */; };
+		38A430331BB64E5200B3A2E8 /* text.html in Resources */ = {isa = PBXBuildFile; fileRef = 38A430321BB64E5200B3A2E8 /* text.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		38A4301F1BB5632800B3A2E8 /* iReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		38A430241BB5632800B3A2E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38A430251BB5632800B3A2E8 /* iReaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iReaderTests.m; sourceTree = "<group>"; };
+		38A4302F1BB648A000B3A2E8 /* MyCanvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyCanvas.h; path = FFViews/MyCanvas.h; sourceTree = "<group>"; };
+		38A430301BB648A000B3A2E8 /* MyCanvas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyCanvas.m; path = FFViews/MyCanvas.m; sourceTree = "<group>"; };
+		38A430321BB64E5200B3A2E8 /* text.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = text.html; path = FFViews/text.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +90,8 @@
 				38A4300E1BB5632800B3A2E8 /* AppDelegate.m */,
 				38A430101BB5632800B3A2E8 /* ViewController.h */,
 				38A430111BB5632800B3A2E8 /* ViewController.m */,
+				38A4302F1BB648A000B3A2E8 /* MyCanvas.h */,
+				38A430301BB648A000B3A2E8 /* MyCanvas.m */,
 				38A430131BB5632800B3A2E8 /* Main.storyboard */,
 				38A430161BB5632800B3A2E8 /* Images.xcassets */,
 				38A430181BB5632800B3A2E8 /* LaunchScreen.xib */,
@@ -96,6 +103,7 @@
 		38A430091BB5632800B3A2E8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				38A430321BB64E5200B3A2E8 /* text.html */,
 				38A4300A1BB5632800B3A2E8 /* Info.plist */,
 				38A4300B1BB5632800B3A2E8 /* main.m */,
 			);
@@ -200,6 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				38A430151BB5632800B3A2E8 /* Main.storyboard in Resources */,
+				38A430331BB64E5200B3A2E8 /* text.html in Resources */,
 				38A4301A1BB5632800B3A2E8 /* LaunchScreen.xib in Resources */,
 				38A430171BB5632800B3A2E8 /* Images.xcassets in Resources */,
 			);
@@ -222,6 +231,7 @@
 				38A430121BB5632800B3A2E8 /* ViewController.m in Sources */,
 				38A4300F1BB5632800B3A2E8 /* AppDelegate.m in Sources */,
 				38A4300C1BB5632800B3A2E8 /* main.m in Sources */,
+				38A430311BB648A000B3A2E8 /* MyCanvas.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +428,7 @@
 				38A4302B1BB5632800B3A2E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		38A4302C1BB5632800B3A2E8 /* Build configuration list for PBXNativeTarget "iReaderTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +437,7 @@
 				38A4302E1BB5632800B3A2E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

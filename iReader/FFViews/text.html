@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>text test</title>
+	<style>
+        *{
+            margin: 0;
+            padding:0;
+        }
+    body{
+        font-family: "microsoft yahei";
+    }
+    
+    table{
+        border-collapse: collapse;
+        margin: 30px 0;
+    }
+    
+    table th{
+        background-color: #CEDAEE;
+    }
+    
+    table th,table td{
+        border:1px solid #DDD;
+    }
+    
+    .box{
+        width: 990px;
+        margin: 20px auto;
+        padding-left: 30px;
+    }
+    .box ul{
+        margin-top: 20px;
+        list-style-position: inside;
+        display: inline-block;
+        *display: inline;
+        *zoom:1;
+        border:1px solid #CCC;
+        padding:1em;
+        white-space: nowrap;
+        vertical-align: top;
+    }
+    
+    .box li{
+        
+    }
+    
+    /* 竖排从左到右，从上往下 */
+    .wm1{
+        -webkit-writing-mode: vertical-lr;
+        -ms-writing-mode: tb-lr;
+        writing-mode: vertical-lr;
+        *writing-mode: tb-lr;/* IE 写法 */
+        unicode-bidi : bidi-override;
+    }
+    
+    /* 竖排从右到左，从上往下 */
+    .wm2{
+        -webkit-writing-mode: vertical-rl;
+        -ms-writing-mode: tb-rl;
+        writing-mode: vertical-rl;
+        *writing-mode: tb-rl;/* IE 写法 */
+        unicode-bidi : bidi-override;
+    }
+    
+    .rtl{
+        direction: rtl;/* 设置文本流的方向 */
+    }
+    </style>
+</head>
+<body>
+<div class="box" >
+    
+<ul class="wm1" >
+    <li>竖排从左到右，从上往下</li>
+    <li>简体中文</li>
+    <li>日本語</li>
+    <li>「writing-mode: vertical-rl;」</li>
+</ul>
+<ul class="wm2">
+    <li>竖排从右到左，从上往下</li>
+    <li> 明月幾時有　 </li>
+    <li> 把酒問青天　 </li>
+    <li> 不知天上宮闕 </li >
+    <li> 今夕是何年　 </li>
+</ul>
+
+<ul class="wm1">
+有其区别。道家与道教的教义不仅不同，甚至相反。<br/>
+道家教人顺乎自然，而道教教人反乎自然。<br/>
+举例来说，照老子、庄子讲，生而有死是自然过程，人应当平静地顺着这个自然过程。<br/>
+但是道教的主要教义则是如何避免死亡的原理和方术，显然是反乎自然而行的。<br/>
+道教有征服自然的科学精神。</br>
+对中国科学史有兴趣的人，可以从道士的著作中找到许多资料。<br/>
+作为哲学的佛学与作为宗教的佛教，也有区别。<br/>
+受过教育的中国人，对佛学比对佛教感兴趣得多。<br/>
+中国的丧祭，和尚和道士一齐参加，这是很常见的。<br/>
+中国人即使信奉宗教，也是有哲学意味的。<br/>
+现在许多西方人都知道，与别国人相比，中国人一向是最不关心宗教的。<br/>
+例如，德克·布德教授(DerkBodde)有篇文章，《中国文化[…]”<br/><br/>
+\n\n摘录来自: fans. “未命名”。 iBooks.
+</ul>
+</div>
+</body>
+</html>
